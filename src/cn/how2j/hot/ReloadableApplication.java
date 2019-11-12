@@ -15,6 +15,7 @@ public class ReloadableApplication {
 	
 	public static void setUp(String startClassName) {
 		
+		
 		ReloadableClassLoader loader = new ReloadableClassLoader(startClassName);
 
 		try {
